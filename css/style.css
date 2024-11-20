@@ -899,3 +899,30 @@
 }
 /*** copyright end ***/
 
+/* Tamaño uniforme para las imágenes */
+.img-fixed {
+    height: 400px; /* Ajusta según prefieras */
+    object-fit: cover;
+}
+
+/* Mejora de visibilidad para los botones */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.75); /* Fondo oscuro para destacar */
+    border-radius: 50%; /* Forma circular */
+    width: 50px;
+    height: 50px;
+}
+
+/* Botones al pasar el mouse */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Cambia a claro */
+    transition: background-color 0.3s ease;
+}
+
+/* Fondo para texto en dispositivos pequeños */
+.carousel-caption {
+    font-size: 14px; /* Reduce el texto en móviles */
+    word-wrap: break-word; /* Ajusta el texto en líneas */
+}
